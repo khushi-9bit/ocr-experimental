@@ -1,0 +1,210 @@
+[
+    {
+        "entity": "B-MISC",
+        "score": 0.6811888217926025,
+        "index": 20,
+        "word": "SD",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "B-MISC",
+        "score": 0.7810488939285278,
+        "index": 53,
+        "word": "Web",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-MISC",
+        "score": 0.7105280160903931,
+        "index": 56,
+        "word": "Testing",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "B-ORG",
+        "score": 0.4207836389541626,
+        "index": 156,
+        "word": "J",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "B-ORG",
+        "score": 0.6755690574645996,
+        "index": 183,
+        "word": "SD",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-MISC",
+        "score": 0.48155221343040466,
+        "index": 195,
+        "word": "Java",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "B-ORG",
+        "score": 0.9886842370033264,
+        "index": 204,
+        "word": "Q",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-ORG",
+        "score": 0.988717794418335,
+        "index": 205,
+        "word": "##SP",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-ORG",
+        "score": 0.9654378294944763,
+        "index": 206,
+        "word": "##ID",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-ORG",
+        "score": 0.8958977460861206,
+        "index": 207,
+        "word": "##ER",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-ORG",
+        "score": 0.7800398468971252,
+        "index": 208,
+        "word": "##S",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-ORG",
+        "score": 0.987866997718811,
+        "index": 209,
+        "word": "BT",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-ORG",
+        "score": 0.8488051295280457,
+        "index": 210,
+        "word": "##M",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-ORG",
+        "score": 0.8427451848983765,
+        "index": 211,
+        "word": "Bangalore",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "B-ORG",
+        "score": 0.5834416747093201,
+        "index": 213,
+        "word": "E",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-ORG",
+        "score": 0.7923915386199951,
+        "index": 219,
+        "word": "Of",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-ORG",
+        "score": 0.9128630757331848,
+        "index": 220,
+        "word": "Engineering",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "B-ORG",
+        "score": 0.9916751384735107,
+        "index": 222,
+        "word": "R",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-ORG",
+        "score": 0.4946599006652832,
+        "index": 223,
+        "word": "##GP",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-ORG",
+        "score": 0.9548472166061401,
+        "index": 224,
+        "word": "##V",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "B-ORG",
+        "score": 0.7919233441352844,
+        "index": 226,
+        "word": "B",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-ORG",
+        "score": 0.7857402563095093,
+        "index": 227,
+        "word": "##hop",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-ORG",
+        "score": 0.8664376139640808,
+        "index": 228,
+        "word": "##al",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-MISC",
+        "score": 0.6084328293800354,
+        "index": 231,
+        "word": "Java",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "B-ORG",
+        "score": 0.968083381652832,
+        "index": 244,
+        "word": "O",
+        "start": null,
+        "end": null
+    },
+    {
+        "entity": "I-ORG",
+        "score": 0.7573548555374146,
+        "index": 245,
+        "word": "##OP",
+        "start": null,
+        "end": null
+    }
+]

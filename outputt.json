@@ -1,0 +1,14 @@
+[
+    {
+        "page_number": 1,
+        "normal_text": "Usha Kumari QA TEST ENGINEER QA Engineer with 2.5 years of experience in Manual Testing , SQL , Jira , POSTMAN and Automation Testing with selenium web driver. in www.linkedin.com/in/usha-kumari-1692a3329 BQ ushakumari12.08.2000 @gmail.com WO) (+91)8709114997 Education Bachelors of Science(Mathematics) (JamshedpurWomen'sCollege) -2021 ,8.84 CGPA SSC ,12\" Atomic Energy Central School-1, Jaduguda -2018 , 64% SSE, 10\" Atomic Energy Central School-2, Jaduguda - 2016 , 9.2 CGPA Skills e JIRA = @ Postman e SQL e Agile Methodology — e Sanity Testing e Selenium web driver eTestNG  e Regression Testing Smoke Testing eJava eeclipseIDE ee Maven’ e Functional and Non-Functional Testing Work Experience. Tecmicra Solutions | Delhi |full-time|(May 2022-present) Developed comprehensive Test Cases for full website functionality. Used JIRA for efficient bug reporting and task management. Engaged in daily standup meetings to streamline workflows. Implemented Agile methodology for optimal product quality. Conducted Ad-hoc testing for Ul and Code-related issues. Contributed to subscription and recurring plans implementation. VVVVVV V Utilized Mysql and Stripe for rigorous payment evaluation.",
+        "bordered_text": "",
+        "tables": []
+    },
+    {
+        "page_number": 2,
+        "normal_text": "Projects Subscription and Membership Purchase | go4WorldBusiness.com 1) Test Case Creation and Execution: Developed comprehensive test cases and test scenarios and Ensured that test cases were exhaustive, addressing each step from user login to payment confirmation or Failed payment. 2) Database Testing: Conducted rigorous testing of the database to validate the accuracy of information post purchase and Verified successful and failed payment scenarios, confirming the correct recording of amount, member ID, tax details, date, discounts, and other relevant data. Utilized SQL to extract information and Updated multiple tables with correct product pricing, plan names, and other relevant details, ensuring data integrity. 3) End-to-End Flow Testing: Executed end-to-end testing of the entire user journey, from login to redirection to the third- party payment gateway (Stripe). 4) Invoice Generation and Email Notification: Checked the generation of accurate invoices after successful transactions and Verified the automated sending of email notifications to users, both in the case of failed and successful payments. 5) Collaboration and Communication: Worked in Agile by collaborated closely with development teams to identify and resolve any issues promptly. 6) Documentation: Documented all test results, including successful and failed scenarios, providing a comprehensive reference for future analysis. Languages English , Hindi Interests Journaling , Designing",
+        "bordered_text": "",
+        "tables": []
+    }
+]
