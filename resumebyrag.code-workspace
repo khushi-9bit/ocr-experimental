@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "resumebyrag",
+			"path": "."
+		},
+		{
+			"name": "Resume_Dev",
+			"path": "C:/Users/KhushiOjha/Downloads/Resume_Dev/Resume_Dev"
+		},
+		{
+			"name": "Resume_HR",
+			"path": "C:/Users/KhushiOjha/Downloads/Resume_HR/Resume_HR"
+		},
+		{
+			"path": "../Resume_QA"
+		}
+	],
+	"settings": {}
+}

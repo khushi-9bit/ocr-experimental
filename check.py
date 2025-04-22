@@ -1,46 +1,53 @@
-import pdfplumber
-import json
+from sklearn.feature_extraction.text import TfidfVectorizer
 
-def extract_tables_and_text(pdf_path):
-    extracted_data = []
+# Sample corpus (documents)
+corpus = [
+    "The quick brown fox jumps over the lazy dog",
+    "The lazy dog is brown",
+    "The fox is brown"
+]
 
-    with pdfplumber.open(pdf_path) as pdf:
-        for page_num, page in enumerate(pdf.pages):
-            page_content = {"page_number": page_num + 1, "text": "", "tables": []}
-            
-            # Extract text
-            text = page.extract_text()
-            if text:
-                page_content["text"] = text.strip()
+# Initialize and fit the TF-IDF vectorizer
+vectorizer = TfidfVectorizer()
+vectorizer.fit(corpus)
 
-            # Extract tables with better structure
-            tables = page.extract_tables()
-            if tables:
-                for table in tables:
-                    if table and len(table) > 1:  # Ensure it's not empty/misidentified
-                        headers = table[0]  # First row as headers
-                        structured_table = []
+# Function to encode documents into sparse vector format
+def encode_document(doc):
+    tfidf_vector = vectorizer.transform([doc])  # Transform the document
+    indices = tfidf_vector.nonzero()[1]  # Get non-zero feature indices
+    values = tfidf_vector.data  # Get corresponding TF-IDF values
+    return {"indices": indices.tolist(), "values": values.tolist()}
 
-                        for row in table[1:]:  # Process the data rows
-                            row_dict = {}
-                            for i in range(len(headers)):
-                                if headers[i] and row[i]:  # Avoid None values
-                                    row_dict[headers[i].strip()] = row[i].strip()
-                            structured_table.append(row_dict)
+# Encode a new document as a sparse vector
+new_doc = "The brown fox is lazy"
+doc_sparse_vector = encode_document(new_doc)
 
-                        if structured_table:
-                            page_content["tables"].append(structured_table)
+# Print the encoded sparse vector
+print(doc_sparse_vector)
 
-            extracted_data.append(page_content)
+# # """
+# from pinecone_text.sparse import BM25Encoder
 
-    return extracted_data
+# # Define corpus
+# corpus = [
+#     "The quick brown fox jumps over the lazy dog",
+#     "The lazy dog is brown",
+#     "The fox is brown",
+#     "Seeta is my friend",
+# ]
 
-# Example usage
-pdf_path = r"C:\Users\KhushiOjha\Downloads\ilovepdf_split(1)\geo_pdf-1-1.pdf"
-output_data = extract_tables_and_text(pdf_path)
+# # Initialize BM25 and fit the corpus
+# bm25 = BM25Encoder()
+# bm25.fit(corpus)
 
-# Save to JSON
-with open("output.json", "w", encoding="utf-8") as f:
-    json.dump(output_data, f, indent=4, ensure_ascii=False)
+# # Encode a new document into a sparse vector
+# doc_sparse_vector = bm25.encode_documents(["seeta is my friend"])
 
-print("✅ Extraction Complete. Data saved to output.json")
+# print("BM25 Sparse Vector:", doc_sparse_vector)
+
+# # Encode a query as a sparse vector for search
+# query_sparse_vector = bm25.encode_queries(["who is seeta"])
+
+# print("BM25 Query Sparse Vector:", query_sparse_vector)
+
+# #"""
